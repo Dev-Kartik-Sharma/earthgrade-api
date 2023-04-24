@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_menu_navbar_menus",
+  "info": {
+    "displayName": "Navbar-Menu"
+  },
+  "options": {},
+  "attributes": {
+    "navbarMenu": {
+      "type": "enumeration",
+      "enum": [
+        "Home",
+        "Shop",
+        "About",
+        "Blog",
+        "Contact us"
+      ]
+    }
+  }
+}

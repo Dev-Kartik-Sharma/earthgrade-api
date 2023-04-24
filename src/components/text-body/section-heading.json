@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_text_body_section_headings",
+  "info": {
+    "displayName": "text-body",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext",
+      "required": true
+    },
+    "subheading": {
+      "type": "richtext",
+      "required": true
+    },
+    "sectionTitle": {
+      "type": "richtext"
+    },
+    "sectionButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    }
+  }
+}

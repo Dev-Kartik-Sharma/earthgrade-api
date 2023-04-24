@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_display_rounds",
+  "info": {
+    "singularName": "product-display-round",
+    "pluralName": "product-display-rounds",
+    "displayName": "product-display-round"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "productImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "productTitle": {
+      "type": "richtext"
+    }
+  }
+}

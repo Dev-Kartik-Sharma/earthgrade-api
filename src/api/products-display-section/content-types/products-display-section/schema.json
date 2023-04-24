@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "products_display_sections",
+  "info": {
+    "singularName": "products-display-section",
+    "pluralName": "products-display-sections",
+    "displayName": "Products-Display-Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionHeading": {
+      "type": "richtext"
+    },
+    "productsDisplay": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-card.products"
+    }
+  }
+}

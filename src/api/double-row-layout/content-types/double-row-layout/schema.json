@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "double_row_layouts",
+  "info": {
+    "singularName": "double-row-layout",
+    "pluralName": "double-row-layouts",
+    "displayName": "Notifyme-Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sectionImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sectionBody": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text-body.section-heading"
+    }
+  }
+}

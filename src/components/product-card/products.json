@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_product_card_products",
+  "info": {
+    "displayName": "Products",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "productImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "productTitle": {
+      "type": "richtext",
+      "required": true
+    },
+    "productDescription": {
+      "type": "richtext",
+      "required": true
+    },
+    "productPrice": {
+      "type": "richtext",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    }
+  }
+}
